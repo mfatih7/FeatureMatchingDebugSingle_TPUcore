@@ -19,7 +19,7 @@ class Config:
             self.storage_local_or_bucket = 'local'        
         
         if( self.device == 'tpu' ):
-            os.chdir( os.path.join('/', 'home', 'mfatih', 'FeatureMatchingDebugSingle_TPU_core', '17_featureMatching') )
+            os.chdir( os.path.join('/', 'home', 'mfatih', 'FeatureMatchingDebugSingle_TPUcore', '17_featureMatching') )
         
         self.first_experiment = 600
         
