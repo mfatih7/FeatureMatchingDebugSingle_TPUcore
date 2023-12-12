@@ -13,6 +13,8 @@ from models.models import get_model_structure
 from samplers.CustomBatchSampler import get_sampler
 
 from loss_module import loss_functions
+# from loss_module import loss_functions_1_to_1 as loss_functions
+
 import checkpoint
 import plots
 

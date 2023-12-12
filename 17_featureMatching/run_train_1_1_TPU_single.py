@@ -17,6 +17,8 @@ if __name__ == '__main__':
     set_env_variables_for_TPU.set_env_debug_variables_for_TPU_PJRT( config )
     
     experiment = config.first_experiment
+
+    config.copy_config_file_to_output_folder( experiment )
     
     learning_rate = config.learning_rate
     n_epochs = config.n_epochs
